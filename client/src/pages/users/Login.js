@@ -41,7 +41,7 @@ function Login({ setUser }) {
     return ( 
         <div className='user-auth'>
             <h1>Login</h1>
-            <form onSubmit={handleSubmit}>
+            <form className='loginForm' onSubmit={handleSubmit}>
                 <label htmlFor="username">Username:</label>
                 <br />
                 <input 

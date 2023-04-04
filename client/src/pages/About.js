@@ -13,6 +13,7 @@ function About() {
       <p className="p1"> 3ml Price: $99 - 1 month supply </p>
       <p className="p1"> 5ml Price: $134 - 3 month supply </p>
       {/* <h5 className="p1"> Free shipping is always included. </h5> */}
+      <img style={{ width: "400px"}} src={require("../latisseD.jpg")} alt="logo"></img>
 
 
     </div>

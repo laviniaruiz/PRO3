@@ -21,7 +21,7 @@ function Index({ user }) {
                 <div className="d-flex">
                     {posts?.map((post, index) =>
                         <Link to={`/posts/${post._id}`} key={index}>
-                            <div className="d-flex flex-column text-center product mx-3" >
+                            <div className="d-flex flex-column text-center product mx-3 main-box" >
                                 {post.name}
                                 <img src={post.image}></img>
                             </div>

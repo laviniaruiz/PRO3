@@ -52,6 +52,7 @@ function Show({ user }) {
     return (
             <div>
                 <div className="a-post">
+                    <img src={post.image} />
                     <h2>{post.subject}</h2>
                     <h5 style={{ opacity: '.3'}}>Posted by {post.user} on {new Date(post.createdAt).toLocaleDateString()} at {new Date(post.createdAt).toLocaleTimeString()}</h5>
                     <div className='p-body'>{post.body}</div><br /><br />

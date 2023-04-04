@@ -1,3 +1,7 @@
+.main-box {
+  background-color: burlywood;
+}
+
 ul {
   position: relative;
   border: 1px solid black;
@@ -245,11 +249,6 @@ textarea {
 }
 
 
-
-
-
-
-
 .user-auth #icon {
     position: absolute;
     height: 40px;
@@ -305,3 +304,7 @@ img {
 .product {
   width: 15vw;
 }
+
+/* .loginForm {
+  
+} */
