@@ -10,3 +10,14 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 | Controllers   | Pages      |
 | Middleware    | Services   |
 | Models        |            |
+
+## Dependencies
+
+|     Backend  |      Client      |
+|--------------|------------------|
+| bcrypt       | react            |
+| cors         | react-dom        |
+| dotenv       | react-router-dom |
+| express      | react-script     |
+| jsonwebtoken | axios            |
+| mongoose     |                  |
