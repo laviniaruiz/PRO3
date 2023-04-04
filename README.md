@@ -4,9 +4,9 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 
 ## Project Breakdown
               Structure
-|     Backend     |   Client   |
-|-----------------|------------|
-|1. Config        | Components |
-|2. Controllers   | Pages      |
-|3. Middleware    | Services   |
-|4. Models        |            |
+|     Backend   |   Client   |
+|---------------|------------|
+| Config        | Components |
+| Controllers   | Pages      |
+| Middleware    | Services   |
+| Models        |            |
