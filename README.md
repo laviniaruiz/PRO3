@@ -25,3 +25,5 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 | mongoose     |                  |
 
 **[⬆ Back to Top](#MERN-Stack)**
+
+<img src="images/MERN.png" width="50%" >
