@@ -18,7 +18,7 @@ function Index({ user }) {
         <div>
             {/* <h1>Index View</h1> */}
             <div id="posts">
-                <div className="d-flex">
+                <div className="d-flex flex-wrap">
                     {posts?.map((post, index) =>
                         <Link to={`/posts/${post._id}`} key={index}>
                             <div className="d-flex flex-column text-center product mx-3 main-box" >
@@ -32,7 +32,9 @@ function Index({ user }) {
 
                 {user &&
                     <Link to="/posts/new">
-                        <button>NEW POST</button>
+                        {/* <button className="np">NEW POST</button> */}
+                        <button type="button" class="np">POST</button>
+
                     </Link>
                 }
 

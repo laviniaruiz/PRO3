@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { userInfo, userLogin } from '../../services/userService';
 
-let emptyForm = { 
+let emptyForm = {
     username: '',
     password: '',
     email: ''
@@ -38,34 +38,37 @@ function Login({ setUser }) {
         navigate('/posts')
     }
 
-    return ( 
+    return (
         <div className='user-auth'>
             <h1>Login</h1>
             <form className='loginForm' onSubmit={handleSubmit}>
+
                 <label htmlFor="username">Username:</label>
                 <br />
-                <input 
-                    type="text" 
+                <input
+                    type="text"
                     id="username"
                     name="username"
+                    placeholder='username'
                     onChange={handleChange}
                     value={form.username}
                 />
                 <br /><br />
                 <label htmlFor="password">Password:</label>
                 <br />
-                <input 
-                    type="password" 
+                <input
+                    type="password"
                     id="password"
                     name="password"
+                    placeholder='password'
                     onChange={handleChange}
                     value={form.password}
                 />
                 <br /><br />
-                <button>Submit</button>
+                <button className='sb'>Submit</button>
             </form>
         </div>
-     );
+    );
 }
 
 export default Login;

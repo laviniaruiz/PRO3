@@ -25,7 +25,7 @@ function New({ user }) {
 
     return ( 
         <div>
-            <h1>New Product</h1>
+            <h1 className="newPro">New Product</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="nme">Name:</label><br />
                 <input type="text" id="nme" ref={nameRef} /><br /><br />

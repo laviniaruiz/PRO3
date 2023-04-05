@@ -48,6 +48,7 @@ function Register({ setUser }) {
                     type="text" 
                     id="username"
                     name="username"
+                    placeholder='username'
                     onChange={handleChange}
                     value={form.username}
                 />
@@ -58,6 +59,7 @@ function Register({ setUser }) {
                     type="email" 
                     id="email"
                     name="email"
+                    placeholder='email'
                     onChange={handleChange}
                     value={form.email}
                 />
@@ -68,6 +70,7 @@ function Register({ setUser }) {
                     type="password" 
                     id="password"
                     name="password"
+                    placeholder='password'
                     onChange={handleChange}
                     value={form.password}
                 />

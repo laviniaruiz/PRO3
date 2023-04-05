@@ -13,6 +13,7 @@ li {
 }
 form {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   padding: 50px;
 }
@@ -305,6 +306,15 @@ img {
   width: 15vw;
 }
 
-/* .loginForm {
-  
-} */
+
+.sb {
+  margin-left: 30px;
+}
+
+.np {
+  margin-left: 500px;
+}
+
+.newPro {
+  margin-left: 500px;
+}
