@@ -21,4 +21,3 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 | express      | react-script     |
 | jsonwebtoken | axios            |
 | mongoose     |                  |
-|              |                  |
