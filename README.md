@@ -1,3 +1,5 @@
+<img src="https://www.cmarix.com/blog/wp-content/uploads/2019/09/Mern.jpg" width="50%">
+
 # **MERN Stack**
 
 ## Summary
@@ -25,6 +27,3 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 | mongoose     |                  |
 
 **[⬆ Back to Top](#MERN-Stack)**
-
-<img src="images/MERN.png" width="80%" >
-<img src="https://www.cmarix.com/blog/wp-content/uploads/2019/09/Mern.jpg">
