@@ -24,4 +24,4 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 | jsonwebtoken | axios            |
 | mongoose     |                  |
 
-**[⬆ Back to Top](#MERNStack)**
+**[⬆ Back to Top](#summary)**
