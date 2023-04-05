@@ -1,4 +1,4 @@
-<img src="https://www.cmarix.com/blog/wp-content/uploads/2019/09/Mern.jpg" width="50%">
+<!-- <img src="https://www.cmarix.com/blog/wp-content/uploads/2019/09/Mern.jpg" width="50%"> -->
 <img src="https://th.bing.com/th/id/OIP.6e6VANhJXmf2MXfTtU-8AQHaDS?pid=ImgDet&rs=1" width="50%>
 
 # **MERN Stack**
