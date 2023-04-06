@@ -54,16 +54,16 @@ function Show({ user }) {
                 <div className="a-post">
                     <img src={post.image} />
                     <h2>{post.subject}</h2>
-                    <h5 style={{ opacity: '.3'}}>Posted by {post.user} on {new Date(post.createdAt).toLocaleDateString()} at {new Date(post.createdAt).toLocaleTimeString()}</h5>
+                    <h12 style={{ opacity: '.3'}}>Posted by {post.user} on {new Date(post.createdAt).toLocaleDateString()} at {new Date(post.createdAt).toLocaleTimeString()}</h12>
                     <div className='p-body'>{post.body}</div><br /><br />
 
                     {
                         post.comments?.length ?
                         <>
-                            <div>Comments:</div>
+                            {/* <div>Comments:</div> */}
                             <div>{post.comments.map((comment, i) => 
                                 <div key={i} className="comm">
-                                    <div>{comment.user}</div>
+                                    <div>comment by: {comment.user}</div>
                                     <div>{comment.body}</div>
                                     {comment.user === user &&
                                         <>

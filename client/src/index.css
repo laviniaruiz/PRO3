@@ -205,10 +205,10 @@ textarea {
 }
 
 .comm {
-  padding-left: 40px;
+  padding-left: 20px;
   margin: 5px;
-  margin-left: 20px;
-  border-left: 1px solid black;
+  margin-left: 5px;
+  /* border-left: 1px solid black; */
   border-color: grey;
   position: relative;
 }
