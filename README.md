@@ -35,7 +35,7 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 * [ github.com](https://github.com/laviniaruiz/PRO3.git)
 
 ## Unsolved Problems
-Turns this project into a beauty app/ web which you can:
+Turns this project into a beauty app/ web where you can:
 - Book a Service
 - Buy a Product
 - Payment, etc
