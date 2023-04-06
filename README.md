@@ -40,3 +40,4 @@ Turns in to a beauty website which include:
 - Cart
 - Search Bar
 - Loved Items
+- Payment Options
