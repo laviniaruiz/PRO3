@@ -1,6 +1,6 @@
-.main-box {
+/* .main-box {
   background-color: burlywood;
-}
+} */
 
 ul {
   position: relative;
@@ -308,6 +308,10 @@ img {
 
 
 .sb {
+  margin-left: 30px;
+}
+
+.sb2 {
   margin-left: 30px;
 }
 
