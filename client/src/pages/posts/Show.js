@@ -54,7 +54,8 @@ function Show({ user }) {
                 <div className="a-post">
                     <img src={post.image} />
                     <h2>{post.subject}</h2>
-                    <h12 style={{ opacity: '.3'}}>Posted by {post.user} on {new Date(post.createdAt).toLocaleDateString()} at {new Date(post.createdAt).toLocaleTimeString()}</h12>
+                    <h11 style={{ opacity: '.3'}}>Posted by {post.user} on {new Date(post.createdAt).toLocaleDateString()} </h11>
+                    {/* at {new Date(post.createdAt).toLocaleTimeString()} */}
                     <div className='p-body'>{post.body}</div><br /><br />
 
                     {
@@ -79,7 +80,7 @@ function Show({ user }) {
                     }
                     {user && 
                         <details ref={detailsRef}>
-                            <summary style={{ opacity: '.5' }}>Leave a comment:</summary>
+                            <summary style={{ opacity: '.5' }}>Comment Box:</summary>
                             <form onSubmit={handleSubmit}>
                                 <textarea ref={bodyRef} id="lc" cols="1" rows="1" />
                                 <button>Comment</button>
