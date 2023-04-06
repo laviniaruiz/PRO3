@@ -31,5 +31,5 @@ MERN stack is intended to provide a starting point for building full-stack JavaS
 **[⬆ Back to Top](#MERN-Stack)**
 
 ## Local Web Server
-[ render.com](https://pro3-frontend.onrender.com)
-[ github.com](https://github.com/laviniaruiz/PRO3.git)
+* [ render.com](https://pro3-frontend.onrender.com)
+* [ github.com](https://github.com/laviniaruiz/PRO3.git)
